@@ -1,0 +1,62 @@
+/* resets page spacing and sets the main font and background */
+body {
+    margin: 0;
+    font-family: arial, helvetica, sans-serif;
+    background-color: #bfbfbf;
+}
+
+/* main white box in the center of the page */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+/* big title at the top */
+h1 {
+    font-size: 80px;
+    color: #2f8f1f;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+/* section titles */
+h2 {
+    font-size: 48px;
+    color: #2f8f1f;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 900;
+}
+
+/* smaller heading used in the green box */
+h3 {
+    font-size: 32px;
+    margin-top: 0;
+    font-weight: 900;
+}
+
+/* paragraph styling so the text is easy to read */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+/* green highlight box for the fun fact section */
+.highlight-box {
+    background-color: #3fa321;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 40px 0;
+}
+
+/* keeps all text inside the green box white */
+.highlight-box p,
+.highlight-box h3 {
+    color: white;
+}

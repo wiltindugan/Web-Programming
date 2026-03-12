@@ -1,0 +1,71 @@
+/* sets the main font and page background */
+body {
+    font-family: arial, sans-serif;
+    background-color: #ffc0cb;
+    margin: 0;
+}
+
+/* header layout and spacing */
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+/* removes bullets from the nav list */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* makes nav items sit next to each other */
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* styling for the navigation links */
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* sets the size of the cart icon */
+.cart-button img {
+    width: 40px;
+}
+
+/* centers the main content and limits width */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* each photo block section */
+.photo-block {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* makes images scale properly and stay centered */
+.photo-block img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* styling for the text under each photo */
+.photo-block figcaption {
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* divider image between photo blocks */
+.divider {
+    display: block;
+    margin: 20px auto;
+}

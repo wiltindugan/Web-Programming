@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- sets the character encoding for the page -->
+    <meta charset="UTF-8">
+
+    <!-- makes the layout scale properly on phones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Wondering Photographer</title>
+
+    <!-- links the external css file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- header with the site title, navigation, and cart button -->
+    <header>
+        <h1>The Wondering Photographer</h1>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About me</a></li>
+            </ul>
+        </nav>
+
+        <a href="#" class="cart-button" aria-label="Go to checkout">
+            <img src="shopping.svg" alt="">
+        </a>
+    </header>
+
+    <!-- main content area with all the photo blocks -->
+    <main>
+
+        <!-- first photo block -->
+        <section class="photo-block">
+            <figure>
+                <img src="OceanPhoto.jpg" alt="A snowy cliff overlooking the ocean in Greenland">
+                <figcaption>
+                    This was from a fabulous trip to the coast of Greenland with my family.
+                    The water was lovely – but very cold!
+                </figcaption>
+            </figure>
+            <button type="button">Add to basket</button>
+        </section>
+
+        <!-- divider image between photo blocks -->
+        <img src="TheDivider.png" alt="" class="divider">
+
+        <!-- second photo block -->
+        <section class="photo-block">
+            <figure>
+                <img src="BridgePhoto.jpg" alt="A close-up view of the Golden Gate Bridge against a blue sky">
+                <figcaption>
+                    A picture of the Golden Gate Bridge. New York! New York!
+                </figcaption>
+            </figure>
+            <button type="button">Add to basket</button>
+        </section>
+
+        <!-- divider image -->
+        <img src="TheDivider.png" alt="" class="divider">
+
+        <!-- third photo block -->
+        <section class="photo-block">
+            <figure>
+                <img src="ValleyPhoto.jpg" alt="A river valley in Greenland where a glacier used to be">
+                <figcaption>
+                    Another great photo from Greenland. It's a river valley where a glacier used to be.
+                </figcaption>
+            </figure>
+            <button type="button">Add to basket</button>
+        </section>
+
+        <!-- divider image -->
+        <img src="TheDivider.png" alt="" class="divider">
+
+        <!-- fourth photo block -->
+        <section class="photo-block">
+            <figure>
+                <img src="WaterfallPhoto.jpg" alt="A waterfall flowing down a cliff into a pool below">
+                <figcaption>
+                    The waterfall made such a lovely sound. I could have fallen asleep!
+                </figcaption>
+            </figure>
+            <button type="button">Add to basket</button>
+        </section>
+
+    </main>
+
+    <!-- footer at the bottom of the page -->
+    <footer>
+        <p>Copyright The Wondering Photographer 2018</p>
+    </footer>
+
+</body>
+
+</html>
